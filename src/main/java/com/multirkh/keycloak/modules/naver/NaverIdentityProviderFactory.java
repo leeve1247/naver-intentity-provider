@@ -1,4 +1,4 @@
-package provider;
+package com.multirkh.keycloak.modules.naver;
 
 import org.keycloak.broker.oidc.OAuth2IdentityProviderConfig;
 import org.keycloak.broker.provider.AbstractIdentityProviderFactory;
@@ -12,7 +12,7 @@ public class NaverIdentityProviderFactory extends AbstractIdentityProviderFactor
 
     @Override
     public String getName() {
-        return "Naver";
+        return "naver";
     }
 
     @Override
@@ -21,14 +21,12 @@ public class NaverIdentityProviderFactory extends AbstractIdentityProviderFactor
     }
 
     @Override
-    public OAuth2IdentityProviderConfig createConfig() {
-        return new OAuth2IdentityProviderConfig();
-    }
-
-    @Override
     public String getId() {
         return PROVIDER_ID;
     }
 
-
+    @Override
+    public OAuth2IdentityProviderConfig createConfig() {
+        return new OAuth2IdentityProviderConfig();
+    }
 }

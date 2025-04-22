@@ -1,1 +1,1 @@
-provider.NaverIdentityProviderFactory
+com.multirkh.keycloak.modules.naver.NaverIdentityProviderFactory

@@ -1,1 +1,1 @@
-provider.NaverUserAttributeMapper
+com.multirkh.keycloak.modules.naver.NaverUserAttributeMapper
