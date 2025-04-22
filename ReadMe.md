@@ -1,3 +1,5 @@
+Verified to work with **Keycloak 26.0.2**
+
 Please build the project using Gradle.
 
 After building, move the generated .jar file to the /opt/keycloak/providers directory.
@@ -29,5 +31,6 @@ services:
 
 Make sure the modules directory contains the correctly built .jar file before starting the container.
 
-[Reference](https://subji.github.io/posts/2020/07/24/keycloak4)
+[Reference(KOR)](https://subji.github.io/posts/2020/07/24/keycloak4)<br>
+[Reference](https://github.com/danny8376/keycloak-social-baidu)
 
